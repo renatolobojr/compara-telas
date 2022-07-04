@@ -32,3 +32,6 @@ outro passo é comentar a linha 4 do index.html (necessário para que rode corre
 
 ```<!--base href="/"-->```
 
+## Publicando o projeto ao github
+Publicando via VScode
+
