@@ -13,11 +13,13 @@ crianto projeto com auxilio do angular-cli com o nome de compara-telas
 ```ng new compara-telas```
 
 ## Acessando o projeto
-acessando a pasta do projeto, criando o arquivo que vos lê e abrindo o projeto no vscode
+acessando a pasta do projeto, criando o arquivo que vos lê e um arquivo pra avisar que não é jekyll, depois abrindo o projeto no vscode
 
 ```cd compara-telas```
 
 ```touch passo-a-passo.md```
+
+```touch /docs/.nojekyll```
 
 ```code .```
 
@@ -28,9 +30,9 @@ buildando com pasta personalizada
 
 ```ng build --output-path=docs```
 
-outro passo é comentar a linha 4 do index.html (necessário para que rode corretamente)
+outro passo é deletar a linha 4 do index.html (necessário para que rode corretamente)
 
-```<!--base href="/"-->```
+```<base href="/">```
 
 ## Publicando o projeto ao github
 Publicando via VScode
