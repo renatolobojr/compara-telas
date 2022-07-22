@@ -4,22 +4,20 @@ Precisa que já esteja instalados
 - node e npm
 - angular-cli
 - vscode
--
-
 
 ## Criando o projeto
-crianto projeto com auxilio do angular-cli com o nome de compara-telas
+criando projeto com auxilio do angular-cli com o nome de compara-telas
 
 ```ng new compara-telas```
 
+ps: Escolha N para o Angular routing, senão não irá funcionar no github
+
 ## Acessando o projeto
-acessando a pasta do projeto, criando o arquivo que vos lê e um arquivo pra avisar que não é jekyll, depois abrindo o projeto no vscode
+acessando a pasta do projeto, criando o arquivo que vos lê e depois abrindo o projeto no vscode
 
 ```cd compara-telas```
 
 ```touch passo-a-passo.md```
-
-```touch /docs/.nojekyll```
 
 ```code .```
 
@@ -35,5 +33,6 @@ outro passo é deletar a linha 4 do index.html (necessário para que rode corret
 ```<base href="/">```
 
 ## Publicando o projeto ao github
-Publicando via VScode
+Publique via VScode cliacando em Publicar no menu source control no menu lateral,
+ou da forma que preferir caso tenha bons conhecimentos em git
 
